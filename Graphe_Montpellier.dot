@@ -1,0 +1,30 @@
+digraph Graphe_Montpellier {
+    "Place_de_la_Comedie" [label="Place de la Comedie"];
+    "Le_Corum" [label="Le Corum"];
+    "Le_Polygone" [label="Le Polygone"];
+    "Jardin_des_Plantes" [label="Jardin des Plantes"];
+    "Opera_Comedie" [label="Opera Comedie"];
+    "Musee_Fabre" [label="Musee Fabre"];
+    "Place_de_l'Europe" [label="Place de l'Europe"];
+    "Parc_du_Peyrou" [label="Parc du Peyrou"];
+    "Place_Jean_Jaures" [label="Place Jean Jaures"];
+
+    "Place_de_la_Comedie" -> "Le_Corum" [label="4"];
+    "Place_de_la_Comedie" -> "Le_Polygone" [label="8"];
+    "Place_de_la_Comedie" -> "Jardin_des_Plantes" [label="2"];
+    "Place_de_la_Comedie" -> "Opera_Comedie" [label="6"];
+    "Le_Corum" -> "Le_Polygone" [label="5"];
+    "Le_Corum" -> "Jardin_des_Plantes" [label="7"];
+    "Le_Corum" -> "Opera_Comedie" [label="3"];
+    "Le_Polygone" -> "Jardin_des_Plantes" [label="9"];
+    "Le_Polygone" -> "Opera_Comedie" [label="1"];
+    "Jardin_des_Plantes" -> "Opera_Comedie" [label="2"];
+    "Opera_Comedie" -> "Musee_Fabre" [label="3"];
+    "Opera_Comedie" -> "Place_de_l'Europe" [label="4"];
+    "Musee_Fabre" -> "Place_de_l'Europe" [label="5"];
+    "Musee_Fabre" -> "Parc_du_Peyrou" [label="6"];
+    "Musee_Fabre" -> "Place_Jean_Jaures" [label="7"];
+    "Place_de_l'Europe" -> "Parc_du_Peyrou" [label="8"];
+    "Place_de_l'Europe" -> "Place_Jean_Jaures" [label="9"];
+    "Parc_du_Peyrou" -> "Place_Jean_Jaures" [label="1"];
+}

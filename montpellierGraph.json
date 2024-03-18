@@ -1,0 +1,128 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "id": "Place_de_la_Comedie",
+          "label": "Place de la Comedie"
+        },
+        "position": {
+          "x": 100,
+          "y": 100
+        }
+      },
+      {
+        "data": {
+          "id": "Le_Corum",
+          "label": "Le Corum"
+        },
+        "position": {
+          "x": 200,
+          "y": 200
+        }
+      },
+      {
+        "data": {
+          "id": "Le_Polygone",
+          "label": "Le Polygone"
+        },
+        "position": {
+          "x": 300,
+          "y": 150
+        }
+      },
+      {
+        "data": {
+          "id": "Jardin_des_Plantes",
+          "label": "Jardin des Plantes"
+        },
+        "position": {
+          "x": 400,
+          "y": 300
+        }
+      },
+      {
+        "data": {
+          "id": "Opera_Comedie",
+          "label": "Opera Comedie"
+        },
+        "position": {
+          "x": 150,
+          "y": 300
+        }
+      },
+      {
+        "data": {
+          "id": "Musee_Fabre",
+          "label": "Musee Fabre"
+        },
+        "position": {
+          "x": 400,
+          "y": 100
+        }
+      },
+      {
+        "data": {
+          "id": "Place_de_l'Europe",
+          "label": "Place de l'Europe"
+        },
+        "position": {
+          "x": 250,
+          "y": 400
+        }
+      },
+      {
+        "data": {
+          "id": "Parc_du_Peyrou",
+          "label": "Parc du Peyrou"
+        },
+        "position": {
+          "x": 500,
+          "y": 250
+        }
+      },
+      {
+        "data": {
+          "id": "Place_Jean_Jaures",
+          "label": "Place Jean Jaures"
+        },
+        "position": {
+          "x": 450,
+          "y": 400
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "source": "Place_de_la_Comedie",
+          "target": "Le_Corum",
+          "orientation": "directed",
+          "weight": 1
+        }
+      },
+      {
+        "data": {
+          "source": "Place_de_la_Comedie",
+          "target": "Le_Polygone",
+          "orientation": "directed",
+          "weight": 2
+        }
+      },
+      {
+        "data": {
+          "source": "Place_de_la_Comedie",
+          "target": "Jardin_des_Plantes",
+          "orientation": "directed",
+          "weight": 3
+        }
+      },
+      // Autres arêtes...
+    ]
+  },
+  "data": {
+    "title": "Graphe de Montpellier",
+    "tags": ["Montpellier", "Reseau", "Carte"],
+    "description": "Graphe représentant les connexions entre les lieux de Montpellier"
+  }
+}
